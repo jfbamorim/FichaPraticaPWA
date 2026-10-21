@@ -8,5 +8,6 @@ Ou seja, uma vez que permite trabalho em paralelo sem prejuízo para ninguém, t
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
 Um conflito de merge acontece quando o git não consegue decidir sozinho que versão manter, por exemplo quando duas versões alteraram a mesma linha do mesmo ficheiro e se tenta fazer merge (num pull ou num merge de branches).
 Resolve-se abrindo o ficheiro em causa, decidindo que versão fica, remove-se os marcadores do git e concluí-se o merge.
-4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
-diferenças entre eles?
+4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
+O clone copia um repositório remoto para a máquina local ficando ligado ao original. 
+O fork cria uma cópia do repositório na nossa própria conta do GitHub e podemos alterá-la livremente e propor as alterações ao repositório original através de um pull request. 
